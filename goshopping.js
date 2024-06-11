@@ -12,15 +12,10 @@ let shoppingCart = []; //shoppingList.slice(); making cart duplicate to List
     shoppingCart.push('fruit loops');
     shoppingList.shift('pop tarts');
     shoppingCart.push('pop tarts');
-    //item: This is a parameter that represents each element in the shoppingList array during iteration.
-//=>: This is the arrow function syntax, which is a shorter way to define a function in JavaScript.
-//shoppingCart.push(item): This line of code is inside the callback function. It adds the current item from the shoppingList array to the shoppingCart array.
-    while (shoppingCart.length < shoppingList.length) {
-        shoppingList.forEach(item => { 
-            shoppingCart.push(item);
-        });
+while (shoppingList.length > 0) {
+    shoppingCart.push(shoppingList.shift());
     shoppingCart.sort();
     shoppingCart.reverse();
     let shoppingCartString = shoppingCart.join(', ');
-console.log(shoppingCartString);
+console.log(shoppingCartString, shoppingList);
     }
