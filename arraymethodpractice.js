@@ -1,6 +1,6 @@
 let Value = [1, 2, 3];
- function getFirstValue(array) {
-    return array[0];
+ function getFirstValue() {
+    return Value[0];
  }
 
  console.log(getFirstValue(Value));
