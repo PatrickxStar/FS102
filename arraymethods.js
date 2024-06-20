@@ -21,6 +21,7 @@ const totalLogin = users.reduce(function(total, user) {
     return total + user.logins;
 }, 0)
 
+
 console.log(findUser);
 console.log(premiumMember);
 console.log(userLastNames);

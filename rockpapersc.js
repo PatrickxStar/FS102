@@ -52,7 +52,7 @@ function playGame(player1, player2, playUntil) {
       }
     }
   
-    return wins[player1.name] > wins[player2.name] ? player1 : player2;
+    return wins[player1.name] > wins[player2.name] ? player1 : player2; // If / else statement - if player one is true, player one name returns, otherwise name of player 2 returns. 
   }
   
   function playTournament(player1, player2, player3, player4, playUntil) {
@@ -63,3 +63,4 @@ function playGame(player1, player2, playUntil) {
   }
   
   playTournament(player1, player2, player3, player4, 3);
+  
