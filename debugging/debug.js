@@ -1,16 +1,16 @@
 const storeOwners = [
     {
-      name: 'charles',
+      name: 'Danny Shavez',
       stores: 1,
       location: "AZ",
     },
     {
-      name: 'sally',
+      name: 'Danny Shavez',
       stores: 1,
       location: "NM",
     },
     {
-      name: 'cassandra',
+      name: 'Danny Shavez',
       stores: 1,
       location: "NM",
     },
