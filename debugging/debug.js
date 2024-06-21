@@ -39,11 +39,7 @@ const storeOwners = [
     for (let i = 0; i < storeOwners.length; i++) {
       let person = storeOwners[i].name;
       let location = storeOwners[i].location;
-      if (person === 'Danny Shavez') {
-        console.log(`Yes, ${person} that lives in ${location} owns one too.`);
-      } else {
-        console.log(`Yes, ${person} has one`);
-      }
+        console.log(`Yes, ${person} has one in ${location}`);
     }
   }
   
