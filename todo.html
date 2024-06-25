@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+                }
+        li {
+            padding: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task List</h1>
+    <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Enter a new task" required>
+        <button type="submit">Add Task</button>
+    </form>
+    <ul id="taskList">
+        <li>Brush my teeth</li>
+            <li>Cook breakfast</li>
+            <li>Drop off the kids</li>
+            <li>Clean the kitchen</li>
+            <li>Take out the trash</li>
+            <li>Vacuum the living room</li>
+            <li>Pick up the kids</li>
+            <li>Cook dinner</li>
+            <li>Shower</li>
+            <li>Rinse and Repeat</li> 
+    </ul>
+    <script src="todo.js"></script>
+</body>
+</html>

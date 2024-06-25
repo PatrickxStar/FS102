@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors Tournament</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .player-input {
+      margin-bottom: 20px;
+    }
+    .hand-options {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .hand-options button {
+      margin: 0 10px;
+    }
+    .results {
+      margin-top: 20px;
+      background-color: bisque;
+    }
+    .round {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .winner {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rock-Paper-Scissors Tournament</h1>
+  
+  <div class="player-input">
+    <input type="text" id="player1Name" placeholder="Enter Player 1 Name">
+    <input type="text" id="player2Name" placeholder="Enter Player 2 Name">
+    <input type="text" id="player3Name" placeholder="Enter Player 3 Name">
+    <input type="text" id="player4Name" placeholder="Enter Player 4 Name">
+    <button id="startTournament">Start Tournament</button>
+  </div>
+
+  <div class="hand-options">
+    <button class="hand-btn" data-hand="rock">Rock</button>
+    <button class="hand-btn" data-hand="paper">Paper</button>
+    <button class="hand-btn" data-hand="scissors">Scissors</button>
+  </div>
+
+  <div class="results">
+    <h2>Game Results</h2>
+    <div id="gameLog"></div>
+  </div>
+  <script src="rps.js"></script>
+</body>
+</html>
