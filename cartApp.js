@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       displayItems();
     });
   
-    // Event delegation for remove buttons
+  
     cartItemsTable.addEventListener('click', (event) => {
       if (event.target && event.target.classList.contains('remove-btn')) {
         const itemId = event.target.dataset.itemId;
