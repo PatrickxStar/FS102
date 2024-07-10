@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "strict": true,
+    "outDir": "./dist",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["./todo.ts"]
+}
